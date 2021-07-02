@@ -4,7 +4,7 @@
 /* Page Styles */
 
 body {
-    background-color: #fafafa;
+    background-color: #d9d9d9;
     font-family: 'Open Sans', sans-serif;
     margin: 0 !important;
 }
@@ -49,6 +49,8 @@ nav ul li:first-child {
     margin-right: auto;
 }
 
+
+/* Content Wrapper */
 .content {
     padding-top: 30px;
     padding-left: 13.5%;
@@ -61,28 +63,61 @@ nav ul li:first-child {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 15px 20px 15px 20px;
     margin-bottom: 25px;
+    height: 100px;
 }
 
-.content .maincard .imageslot {
-    width: 10%;
+/* Main Card */
+
+.maincard p {
+    float: left;
+    margin-top: 1%;
 }
 
-.content .maincard .info {
-    width: 90%;
-}
+/* Card */
 
 .card {
     background-color: #f0f1ef;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
     text-align: left;
+    height: 100px;
 }
 
 .card:active {
     background-color: #002b50;
-    color: #f0f1ef;
+    color: #f0f1ef !important;
 }
 
+.card .title {
+    color: #002b50;
+}
+
+.card:active .title {
+    color: #fafafa;
+}
+
+.card p {
+    float: left;
+    margin-top: 6.5%;
+    color: #858585;
+}
+
+.badge {
+    position: absolute;
+    top: -10px;
+    right: 15px;
+    padding: 5px 11px;
+    border-radius: 50%;
+    background-color: #4dd2d2;
+    color: #002b50;
+}
+
+.imgwrap {
+    float: left;
+    position: relative;
+    display: inline-block;
+    
+}
 
 /* Row and Column Styles */
 .row {
@@ -93,22 +128,45 @@ nav ul li:first-child {
     content: "";
     display: table;
     clear: both;
-  }
+}
 
 .column {
     float: left;
-    width: 31.92%;
+    width: 31.855%;
     padding: 0 10px;
     margin-bottom: 25px;
 }
 
-  
+.profilepic {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px !important;
+    float: left !important;
+}
+
+.wrapper {
+    width: 25%;
+    padding-top: 15px;
+}
+
+.left {
+    float: left;
+    width: 25%;
+    text-align: right;
+    margin-right: 10px;
+    color: #858585;
+}
+
+.right {
+    margin-left: 55%;
+}
 
 @media screen and (max-width: 1200px) {
     .column {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
     }
-  }
-  
+}
