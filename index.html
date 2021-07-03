@@ -5,44 +5,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Imports font-awesome, used for nav hamburguer -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Sets up title -->
     <title>Space Box | Meet our team </title>
+
+    <!-- Import Stylings from style.css -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <!-- Start navigation -->
-    <div class="nav">
-        <nav>
-            <ul>
-                <li><img src="assets/images/logo.png" alt="logo"></li>
-                <li><a href="#">Empresa</a></li>
-                <li><a href="#">Serviço</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
+    <div class="nav" id="nav">
+        <a href="#"><img src="assets/images/logo.png" alt="logo"></a>
+        <div class="itens">
+            <a href="#">Empresa</a>
+            <a href="#">Serviço</a>
+            <a href="#">Contato</a>
+            <a href="javascript:void(0);" class="icon" onclick="navControl()"><i class="fa fa-bars"></i></a>
+        </div>
     </div>
     <!-- End navigation-->
 
 
     <!-- Start Content-->
     <div class="content">
+       
         <!-- Start Main Card-->
-
         <div class="row" id="maincardwrapper">
-           
+
         </div>
         <!-- End Main Card-->
 
+         <!-- Start Cards-->
         <div class="row" id="row">
-           
+
         </div>
+        <!-- End Cards-->
+
     </div>
     <!-- End Content-->
 </body>
 
 </html>
-
+<!-- Imports functions from data/script.js-->
 <script type="text/javascript" src="data/script.js"></script>
+
+<!-- Prints data from data/dados.json and sets default Main card -->
 <script>
     printData(getData());
     document.getElementById("defaultOpen").click();

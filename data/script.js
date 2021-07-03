@@ -1,3 +1,4 @@
+//collects data from dados.json
 function getData() {
     var request = new XMLHttpRequest();
     request.open("GET", "data/dados.json", false);
@@ -8,6 +9,7 @@ function getData() {
    
 }
 
+//prints data collected from dados.json
 function printData(dataObj) {
     for (const element of dataObj) {
 
@@ -56,6 +58,10 @@ function printData(dataObj) {
     }
 }
 
+
+
+// Updates main cards' information
+
 function openMainCard(id, elmt) {
     var i, maincard, card, maincardid;
     maincardid = "mainCard" + id;
@@ -75,3 +81,14 @@ function openMainCard(id, elmt) {
 
 
 }
+
+// Nav hamburger toggle
+
+function navControl() {
+    var x = document.getElementById("nav");
+    if (x.className === "nav") {
+      x.className += " responsive";
+    } else {
+      x.className = "nav";
+    }
+  }
