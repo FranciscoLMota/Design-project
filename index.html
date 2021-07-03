@@ -27,19 +27,9 @@
     <!-- Start Content-->
     <div class="content">
         <!-- Start Main Card-->
-        <div class="maincard">
-            <div class="imgwrapper">
-                <img src="assets/images/foto-alberto.jpg" alt="" class="profilepic">
-            </div>
-            <div class="wrapper">
-                <div class="left">NOME:</div>
-                <div class="right"><b>Alberto</b></div>
-                <div class="left">CARGO:</div>
-                <div class="right"><b>Presidente</b></div>
-                <div class="left">IDADE:</div>
-                <div class="right"><b>46</b></div>
-            </div>
 
+        <div class="row" id="maincardwrapper">
+           
         </div>
         <!-- End Main Card-->
 
@@ -54,5 +44,6 @@
 
 <script type="text/javascript" src="data/script.js"></script>
 <script>
-    getData();
+    printData(getData());
+    document.getElementById("defaultOpen").click();
 </script>

@@ -83,17 +83,8 @@ nav ul li:first-child {
     height: 100px;
 }
 
-.card:active {
-    background-color: #002b50;
-    color: #f0f1ef !important;
-}
-
 .card .title {
     color: #002b50;
-}
-
-.card:active .title {
-    color: #fafafa;
 }
 
 .card p {
@@ -115,9 +106,8 @@ nav ul li:first-child {
 .imgwrap {
     float: left;
     position: relative;
-    display: inline-block;
-    
 }
+
 
 /* Row and Column Styles */
 .row {

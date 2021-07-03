@@ -51,3 +51,12 @@ To-do:
 + Still need to improve appropriate sizing for columns
 + Add main card update function
 + Add nav collapse for mobile/smaller screens
+
+## 005 - Main Card Update
++ Updated assets\data\script.js - updated getData function to only get the data, added the printData function to print data on html and added openMainCard function to update the information on Main Card.
++ Updated index.html - Added Main Card wrapper.
++ Updated style.css - Removed Card:active stylings as they are no longer necessary
+
+To-do:
++ Still need to improve appropriate sizing for columns
++ Add nav collapse for mobile/smaller screens
