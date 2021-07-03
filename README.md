@@ -33,3 +33,21 @@ To-do:
 + Still need to improve appropriate sizing for columns
 + Add JS and automatic data filling
 + Export images for profiles
+
+## 004 - List items
++ Added assets\images\foto-alberto.jpg
++ Added assets\images\foto-bruno.jpg
++ Added assets\images\foto-diego.jpg
++ Added assets\images\foto-fernanda.jpg
++ Added assets\images\foto-gabriel.jpg
++ Added assets\images\foto-gustavo.jpg
++ Added assets\images\foto-helena.jpg
++ Added assets\images\foto-hugo.jpg
++ Added assets\images\foto-iris.jpg
++ Added assets\data\script.js - Added data get and print
++ Updated index.html - Added function call
+
+To-do:
++ Still need to improve appropriate sizing for columns
++ Add main card update function
++ Add nav collapse for mobile/smaller screens
