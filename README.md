@@ -44,7 +44,7 @@ To-do:
 + Added assets\images\foto-helena.jpg
 + Added assets\images\foto-hugo.jpg
 + Added assets\images\foto-iris.jpg
-+ Added assets\data\script.js - Added data get and print
++ Added data\script.js - Added data get and print
 + Updated index.html - Added function call
 
 To-do:
@@ -53,10 +53,15 @@ To-do:
 + Add nav collapse for mobile/smaller screens
 
 ## 005 - Main Card Update
-+ Updated assets\data\script.js - updated getData function to only get the data, added the printData function to print data on html and added openMainCard function to update the information on Main Card.
++ Updated data\script.js - updated getData function to only get the data, added the printData function to print data on html and added openMainCard function to update the information on Main Card.
 + Updated index.html - Added Main Card wrapper.
 + Updated style.css - Removed Card:active stylings as they are no longer necessary
 
 To-do:
 + Still need to improve appropriate sizing for columns
 + Add nav collapse for mobile/smaller screens
+
+## 006 - Responsive update
++ Updated assets\css\style.css - Added responsive stylings
++ Updated data\script.js - Added function to toggle nav collapse for smaller screens
++ Updated index.html - Added comments to help code understanding and updated top nav bar
